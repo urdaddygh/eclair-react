@@ -1,0 +1,127 @@
+.first_section {
+    margin-top: 21px;
+    padding: 0 25px;
+}
+
+.first_section__cont {
+    background-color: #26ABE2;
+    border-radius: 25px;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+}
+
+.first_section__text {
+    padding: 0 35px;
+    color: white;
+}
+
+.aboutus {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.first_text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+
+.second_section {
+    margin-top: 21px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.first_box {
+    background-color: #26ABE2;
+    padding: 40px 5px 14px 5px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 13px;
+}
+.first_box ul{
+    margin-bottom: 7px;
+}
+.first_box h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    margin-left: 21px;
+    margin-bottom: 20px;
+    font-family: 'malatestian';
+
+}
+
+.first_box__flex {
+    display: flex;
+    justify-content: space-between;
+    // padding: 20px 5px 20px 30px;
+    border-radius: 15px;
+    background-color: #1A6C8D;
+    align-items: center;
+   height: 78px;
+   width: 100%;
+}
+
+.first_box__flex li {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.first_box__flex p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 10px;
+    color: #EDEDED;
+}
+
+.first_box__flex h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 20px;
+}
+
+.second_box {
+    background-color: #26ABE2;
+    border-radius: 20px;
+    flex: 1;
+    margin-left: 13px;
+}
+.birthday{
+display: flex;
+justify-content: center;
+align-items: center;    
+margin-top: 19px;
+margin-right: 40px;
+}
+.birthday h2{
+font-family: 'malatestian';
+font-weight:200;
+font-size: 32px;
+line-height: 42px;
+}
+.birthday_list{
+    font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+// margin-top: 23px;
+margin-left: 23px;
+}
+
+.birthday img{
+    margin-left: 20px;
+}

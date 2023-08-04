@@ -1,7 +1,8 @@
 import React from "react";
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import s from "./MainPage.module.scss";
 import Header from "../components/header/Header";
+import HomePage from "./home/HomePage";
 
 const MainPage = () => {
   return (
@@ -12,7 +13,7 @@ const MainPage = () => {
 
       <div className={s.content}>
         <Routes>
-          {/* <Route path='/auth' element={< />} /> */}
+          <Route path='/home' element={<HomePage />} />
           {/* <Route path='/main/*' element={<Profile />} /> */}
         </Routes>
       </div>
