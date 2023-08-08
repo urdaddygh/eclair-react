@@ -19,13 +19,13 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    // padding: 0;
+    // margin: 0;
     text-decoration: none;
     font-family: "Roboto";
     -moz-box-sizing: border-box; /* Для Firefox */
     box-sizing: border-box;
-    font-size: 18px;
+    // font-size: 18px;
 }
 
 .form_title {
@@ -75,12 +75,12 @@
 
 //Меняет скролл
 ::-webkit-scrollbar {
-    width: 1.5px;
-    height: 12px;
+    width: 3px;
+    // height: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #D7DAFD;
+    background-color: #26ABE2;
     margin-top: 10px;
     border-radius: 35px;
 }
